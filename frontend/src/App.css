@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.search-container {
+  padding: 20px 0;
+}
+
+.search-input {
+  padding: 10px;
+  width: 250px;
+}
+
+.tag {
+  margin: 0 10px;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 400px;
+  height: 400px;
+  min-width: 300px;
+  overflow-y: auto;
+  margin-top: 30px;
+}
+
+.company-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blanchedalmond;
+  margin-top: 10px;
+  padding: 20px;
+  width: 400px;
+}
+
+.company-card-module {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-name {
+  font-size: 20px;
+}
+
+.company-city {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.company-logo {
+  width: 80px;
+  height: 80px;
+}
